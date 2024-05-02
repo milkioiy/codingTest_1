@@ -21,6 +21,7 @@ public class greedy4 {
             result += 1; // K로 나눈 횟수를 결과값에 더함
             n /= k; // 현재 수를 K로 나눈 몫으로 업데이트
         }
+        System.out.println(result);
 
         // 마지막으로 남은 수에 대하여 1씩 빼기
         result += (n - 1); // 남은 수에서 1을 빼는 횟수를 결과값에 더함
