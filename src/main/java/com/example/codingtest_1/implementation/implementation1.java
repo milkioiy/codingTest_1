@@ -22,7 +22,7 @@ public class implementation1 {
             for (int i = 0; i < plans.length; i++) {
                 char plan = plans[i].charAt(0);
                 // 이동 후 좌표 구하기
-                int nx = -1, ny = -1;
+                int nx = -1, ny = -1; //유효하지 않은 값으로 초기화
                 for (int j = 0; j < 4; j++) {
                     if (plan == moveTypes[j]) {
                         nx = x + dx[j];
